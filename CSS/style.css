@@ -1,0 +1,380 @@
+/* CSS global changes */
+body{
+    font-family:"open Sans",sans-serif;
+}
+/* open sans fonts  */
+.osBold{
+    font-family: "osBold",sans-serif;
+}
+.osBoldItalic{
+    font-family: "osBoldItalic",sans-serif;
+}
+.osExtraBold{
+    font-family: "osExtraBold",sans-serif;
+}
+.osExtraBoldItalic{
+    font-family: "osExtraBoldItalic",sans-serif;
+}
+.osItalic{
+    font-family: "osItalic",sans-serif;
+}
+.osLight{
+    font-family: "osLight",sans-serif;
+}
+.osLightItalic{
+    font-family: "osLightItalic",sans-serif;
+}
+.osMedium{
+    font-family: "osMedium",sans-serif;
+}
+.osMediumItalic{
+    font-family: "osMediumItalic",sans-serif;
+}
+.osRegular{
+    font-family: "osRegular",sans-serif;
+}
+.osSemiBold{
+    font-family: "osSemiBold",sans-serif;
+}
+.osSemiBoldItalic{
+    font-family: "osSemiBoldItalic",sans-serif;
+}
+@font-face{
+    font-family: "open Sans",sans-serif;
+    src:url(../font-family/Open_Sans/OFL.txt)
+}
+@font-face {
+    font-family: "osBold";
+    src: url(../font-family/Open_Sans/static/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: "osBoldItalic";
+    src: url(../font-family/Open_Sans/static/OpenSans-BoldItalic.ttf);
+}
+@font-face {
+    font-family: "osExtraBold";
+    src: url(../font-family/Open_Sans/static/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "osExtraBoldItalic";
+    src: url(../font-family/Open_Sans/static/OpenSans-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: "osItalic";
+    src: url(../font-family/Open_Sans/static/OpenSans-Italic.ttf);
+}
+@font-face {
+    font-family: "osLight";
+    src: url(../font-family/Open_Sans/static/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: "osLightItalic";
+    src: url(../font-family/Open_Sans/static/OpenSans-LightItalic.ttf);
+}
+@font-face {
+    font-family: "osMedium";
+    src: url(../font-family/Open_Sans/static/OpenSans-Medium.ttf);
+}
+@font-face {
+    font-family: "osMediumItalic";
+    src: url(../font-family/Open_Sans/static/OpenSans-MediumItalic.ttf);
+}
+@font-face {
+    font-family: "osRegular";
+    src: url(../font-family/Open_Sans/static/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: "osSemiBold";
+    src: url(../font-family/Open_Sans/static/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: "osSemiBoldItalic";
+    src: url(../font-family/Open_Sans/static/OpenSans-SemiBoldItalic.ttf);
+}
+/* Raleway fonts */
+.rwBlack{
+    font-family: "rwBlack",sans-serif;
+}
+.rwBlackItalic{
+    font-family: "rwBlackItalic",sans-serif;
+}
+.rwBold{
+    font-family: "rwBold",sans-serif;
+}
+.rwBoldItalic{
+    font-family: "rwBoldItalic",sans-serif;
+}
+.rwExtraBold{
+    font-family: "rwExtraBold",sans-serif;
+}
+.ExtraBoldItalic{
+    font-family: "ExtraBoldItalic",sans-serif;
+}
+.rwExtraLight{
+    font-family: "rwExtraLight",sans-serif;
+}
+.rwItalic{
+    font-family: "rwItalic",sans-serif;
+}
+.rwLight{
+    font-family: "rwLight",sans-serif;
+}
+.rwLightItalic{
+    font-family: "rwLightItalic",sans-serif;
+}
+.rwMedium{
+    font-family: "rwMedium",sans-serif;
+}
+.rwMediumItalic{
+    font-family: "rwMediumItalic",sans-serif;
+}
+.rwRegular{
+    font-family: "rwRegular",sans-serif;
+}
+.rwSemiBold{
+    font-family: "rwSemiBold",sans-serif;
+}
+.rwSemiBoldItalic{
+    font-family: "rwSemiBoldItalic",sans-serif;
+}
+@font-face {
+    font-family: "Raleway",sans-serif;
+    src: url(../font-family/Raleway/OFL.txt);
+}
+@font-face {
+    font-family: "rwBlack";
+    src: url(../font-family/Raleway/static/Raleway-Black.ttf);
+}
+@font-face {
+    font-family: "rwBlackItalic";
+    src: url(../font-family/Raleway/static/Raleway-BlackItalic.ttf);
+}
+@font-face {
+    font-family:"rwBold" ;
+    src: url(../font-family/Raleway/static/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: "rwBoldItalic";
+    src: url(../font-family/Raleway/static/Raleway-BoldItalic.ttf);
+}
+@font-face {
+    font-family: "rwExtraBold";
+    src: url(../font-family/Raleway/static/Raleway-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "ExtraBoldItalic";
+    src: url(../font-family/Raleway/static/Raleway-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: "rwExtraLight";
+    src: url(../font-family/Raleway/static/Raleway-ExtraLight.ttf);
+}
+@font-face {
+    font-family: "rwItalic";
+    src: url(../font-family/Raleway/static/Raleway-Italic.ttf);
+}
+@font-face {
+    font-family: "rwLight";
+    src: url(../font-family/Raleway/static/Raleway-Light.ttf);
+}
+@font-face {
+    font-family: "rwLightItalic";
+    src: url(../font-family/Raleway/static/Raleway-LightItalic.ttf);
+}
+@font-face {
+    font-family: "rwMedium";
+    src: url(../font-family/Raleway/static/Raleway-Medium.ttf);
+}
+@font-face {
+    font-family: "rwMediumItalic";
+    src: url(../font-family/Raleway/static/Raleway-MediumItalic.ttf);
+}
+@font-face {
+    font-family: "rwRegular";
+    src: url(../font-family/Raleway/static/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: "rwSemiBold";
+    src: url(../font-family/Raleway/static/Raleway-SemiBold.ttf);
+}
+@font-face {
+    font-family: "rwSemiBoldItalic";
+    src: url(../font-family/Raleway/static/Raleway-SemiBoldItalic.ttf);
+}
+/* poppins fonts */
+.PoppinsBlack{
+    font-family: "PoppinsBlack",sans-serif;
+}
+.PoppinsBlackItalic{
+    font-family: "PoppinsBlackItalic",sans-serif;
+}
+.PoppinsBold{
+    font-family: "PoppinsBold",sans-serif;
+}
+.PoppinsBoldItalic{
+    font-family: "PoppinsBoldItalic",sans-serif;
+}
+.PoppinsExtraBold{
+    font-family: "PoppinsExtraBold",sans-serif;
+}
+.PoppinsExtraBoldItalic{
+    font-family: "PoppinsExtraBoldItalic",sans-serif;
+}
+.PoppinsExtraLight{
+    font-family: "PoppinsExtraLight",sans-serif;
+}
+.PoppinsExtraLightItalic{
+    font-family: "PoppinsExtraLightItalic",sans-serif;
+}
+.PoppinsItalic{
+    font-family: "PoppinsItalic",sans-serif;
+}
+.PoppinsLight{
+    font-family: "PoppinsLight",sans-serif;
+}
+.PoppinsLightItalic{
+    font-family: "PoppinsLightItalic",sans-serif;
+}
+.PoppinsMedium{
+    font-family: "PoppinsMedium",sans-serif;
+}
+.PoppinsMediumItalic{
+    font-family: "PoppinsMediumItalic",sans-serif;
+}
+.PoppinsRegular{
+    font-family: "PoppinsRegular",sans-serif;
+}
+.PoppinsSemiBold{
+    font-family: "PoppinsSemiBold",sans-serif;
+}
+.PoppinsSemiBoldItalic{
+    font-family: "PoppinsSemiBoldItalic",sans-serif;
+}
+.PoppinsThin{
+    font-family: "PoppinsThin",sans-serif;
+}
+.PoppinsThinItalic{
+    font-family: "PoppinsThinItalic",sans-serif;
+}
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url(/font-family/Poppins/OFL.txt);
+}
+@font-face {
+  font-family: "PoppinsBlack";
+  src:url(/font-family/Poppins/Poppins-Black.ttf);
+}
+@font-face {
+  font-family: "PoppinsBlackItalic";
+  src: url(/font-family/Poppins/Poppins-BlackItalic.ttf);
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: url(/font-family/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "PoppinsBoldItalic";
+  src: url(/font-family/Poppins/Poppins-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "PoppinsExtraBold";
+  src: url(/font-family/Poppins/Poppins-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "PoppinsExtraBoldItalic";
+  src: url(/font-family/Poppins/Poppins-ExtraBoldItalic.ttf);
+}
+@font-face {
+  font-family: "PoppinsExtraLight";
+  src: url(/font-family/Poppins/Poppins-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "PoppinsExtraLightItalic";
+  src: url(/font-family/Poppins/Poppins-ExtraLightItalic.ttf);
+}
+@font-face {
+  font-family: "PoppinsItalic";
+  src: url(/font-family/Poppins/Poppins-Italic.ttf);
+}
+@font-face {
+  font-family: "PoppinsLight";
+  src: url(/font-family/Poppins/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: "PoppinsLightItalic";
+  src: url(/font-family/Poppins/Poppins-LightItalic.ttf);
+}
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url(/font-family/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "PoppinsMediumItalic";
+  src: url(/font-family/Poppins/Poppins-MediumItalic.ttf);
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url(/font-family/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "PoppinsSemiBold";
+  src: url(/font-family/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "PoppinsSemiBoldItalic";
+  src: url(/font-family/Poppins/Poppins-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: "PoppinsThin";
+  src: url(/font-family/Poppins/Poppins-Thin.ttf);
+}
+@font-face {
+  font-family: "PoppinsThinItalic";
+  src: url(/font-family/Poppins/Poppins-ThinItalic.ttf);
+}
+#carousel-1{
+    background-image: radial-gradient(
+        rgba(64, 62, 62, 0.5),
+        rgba(57, 57, 53, 0.6)), url(
+'../images/slide-1.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 92vh;
+}
+#carousel-2{
+    background-image: radial-gradient(
+        rgba(64, 62, 62, 0.5),
+        rgba(57, 57, 53, 0.6)), url(
+'../images/slide-2.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 92vh;
+}
+#carousel-3{
+    background-image: radial-gradient(
+        rgba(64, 62, 62, 0.5),
+        rgba(57, 57, 53, 0.7)), url(
+'../images/slide-3.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 92vh;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    /* background-color: #fff; */
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
