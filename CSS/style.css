@@ -258,79 +258,79 @@ body{
 }
 @font-face {
   font-family: "Poppins", sans-serif;
-  src: url(/font-family/Poppins/OFL.txt);
+  src: url(../font-family/Poppins/OFL.txt);
 }
 @font-face {
   font-family: "PoppinsBlack";
-  src:url(/font-family/Poppins/Poppins-Black.ttf);
+  src:url(../font-family/Poppins/Poppins-Black.ttf);
 }
 @font-face {
   font-family: "PoppinsBlackItalic";
-  src: url(/font-family/Poppins/Poppins-BlackItalic.ttf);
+  src: url(../font-family/Poppins/Poppins-BlackItalic.ttf);
 }
 @font-face {
   font-family: "PoppinsBold";
-  src: url(/font-family/Poppins/Poppins-Bold.ttf);
+  src: url(../font-family/Poppins/Poppins-Bold.ttf);
 }
 @font-face {
   font-family: "PoppinsBoldItalic";
-  src: url(/font-family/Poppins/Poppins-BoldItalic.ttf);
+  src: url(../font-family/Poppins/Poppins-BoldItalic.ttf);
 }
 @font-face {
   font-family: "PoppinsExtraBold";
-  src: url(/font-family/Poppins/Poppins-ExtraBold.ttf);
+  src: url(../font-family/Poppins/Poppins-ExtraBold.ttf);
 }
 @font-face {
   font-family: "PoppinsExtraBoldItalic";
-  src: url(/font-family/Poppins/Poppins-ExtraBoldItalic.ttf);
+  src: url(../font-family/Poppins/Poppins-ExtraBoldItalic.ttf);
 }
 @font-face {
   font-family: "PoppinsExtraLight";
-  src: url(/font-family/Poppins/Poppins-ExtraLight.ttf);
+  src: url(../font-family/Poppins/Poppins-ExtraLight.ttf);
 }
 @font-face {
   font-family: "PoppinsExtraLightItalic";
-  src: url(/font-family/Poppins/Poppins-ExtraLightItalic.ttf);
+  src: url(../font-family/Poppins/Poppins-ExtraLightItalic.ttf);
 }
 @font-face {
   font-family: "PoppinsItalic";
-  src: url(/font-family/Poppins/Poppins-Italic.ttf);
+  src: url(../font-family/Poppins/Poppins-Italic.ttf);
 }
 @font-face {
   font-family: "PoppinsLight";
-  src: url(/font-family/Poppins/Poppins-Light.ttf);
+  src: url(../font-family/Poppins/Poppins-Light.ttf);
 }
 @font-face {
   font-family: "PoppinsLightItalic";
-  src: url(/font-family/Poppins/Poppins-LightItalic.ttf);
+  src: url(../font-family/Poppins/Poppins-LightItalic.ttf);
 }
 @font-face {
   font-family: "PoppinsMedium";
-  src: url(/font-family/Poppins/Poppins-Medium.ttf);
+  src: url(../font-family/Poppins/Poppins-Medium.ttf);
 }
 @font-face {
   font-family: "PoppinsMediumItalic";
-  src: url(/font-family/Poppins/Poppins-MediumItalic.ttf);
+  src: url(../font-family/Poppins/Poppins-MediumItalic.ttf);
 }
 @font-face {
   font-family: "PoppinsRegular";
-  src: url(/font-family/Poppins/Poppins-Regular.ttf);
+  src: url(../font-family/Poppins/Poppins-Regular.ttf);
 }
 @font-face {
   font-family: "PoppinsSemiBold";
-  src: url(/font-family/Poppins/Poppins-SemiBold.ttf);
+  src: url(../font-family/Poppins/Poppins-SemiBold.ttf);
 }
 @font-face {
   font-family: "PoppinsSemiBoldItalic";
-  src: url(/font-family/Poppins/Poppins-SemiBoldItalic.ttf);
+  src: url(../font-family/Poppins/Poppins-SemiBoldItalic.ttf);
 }
 @font-face {
   font-family: "PoppinsThin";
-  src: url(/font-family/Poppins/Poppins-Thin.ttf);
+  src: url(../font-family/Poppins/Poppins-Thin.ttf);
 }
 @font-face {
   font-family: "PoppinsThinItalic";
-  src: url(/font-family/Poppins/Poppins-ThinItalic.ttf);
+  src: url(../font-family/Poppins/Poppins-ThinItalic.ttf);
 }
 #carousel-1{
     background-image: radial-gradient(
@@ -377,4 +377,45 @@ body{
     border-bottom: 10px solid transparent;
     opacity: .5;
     transition: opacity .6s ease;
+}
+h6::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #f38b74;
+    margin: 4px 10px;
+}
+h1{
+    font-family: "osExtraBold",sans-serif;
+}
+p{
+    color: #055160;
+}
+.accordian {
+    background-image: url(../images/why-us.jpg);
+    height: 550px;
+}
+.card-hover i{
+    box-shadow: -8px -8px #f9c6bb;
+}
+.card-hover:hover i{
+    background-color: #fff !important;
+    color: red !important;
+}
+.card-hover:hover{
+    background-color: red !important;
+    color: #fff !important;
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+
+}
+.card-hover:hover p{
+    color: #fff !important;
+}
+.testimonial img{
+    margin: 35px 0px 0px -50px;
+}
+.testimonial{
+    margin: 0px 50px;
 }
